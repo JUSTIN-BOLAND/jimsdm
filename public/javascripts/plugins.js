@@ -1,4 +1,11 @@
-// Avoid `console` errors in browsers that lack a console.
+/*
+    Contents:
+        - avoid console errors script
+        - google analytics
+        - bootstrap.min.js
+*/
+
+//--- Avoid `console` errors in browsers that lack a console.
 (function() {
     var method;
     var noop = function () {};
@@ -20,6 +27,15 @@
         }
     }
 }());
+
+//--- google analytics for convertMost.com  https://www.google.com/analytics/web/?hl=en#management/Settings/a55743024w88990272p92469417/
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-55743024-1', 'auto');
+  ga('send', 'pageview');
 
 // Place any jQuery/helper plugins in here.
 

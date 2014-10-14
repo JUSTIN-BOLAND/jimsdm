@@ -36,7 +36,7 @@ app.get('/toc', function(req, res) {
 });
 
 app.get('/usedcardealer', function(req, res) {
-    res.render('usedcardealer', { title: 'Marketing Campaign For Used Car Dealer'});
+    res.render('usedcardealer', { title: 'Marketing Campaign For Used Car Dealers'});
 });
 
 app.use('/users', users);

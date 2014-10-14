@@ -1,4 +1,8 @@
 doctype html
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
 html.no-js
   head
     meta(charset='utf-8')
@@ -7,6 +11,13 @@ html.no-js
     meta(name='description', content='pay per click advertising, auckland, new zealand, direct marketing, copywriting, google adwords')
     meta(name='viewport', content='width=device-width, initial-scale=1')
     link(rel='stylesheet', href='/stylesheets/style.css')
+    script(src='/javascripts/main.js')
+    script(src='/javascripts/plugins.js')
+    script(src='/javascripts/vendor/modernizr-2.6.2.min.js')
+    script(src='//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js')
+    // if google jquery cdn is not available, use this fallback
+    script
+      window.jQuery || document.write('<script src="javascript/vendor/jquery-1.10.2.min.js"> <\\/script>')
   body
     block content
 
@@ -14,7 +25,9 @@ html.no-js
     p &nbsp;
     p &nbsp;
     p &nbsp;
-    p Jim Syyap Direct Marketing, Auckland, New Zealand
-    p Need help getting more customers for your business? 
+    p <strong>Jim Syyap Direct Marketing</strong>, Auckland, New Zealand
+    //p Need help getting more customers for your business? 
       a(href=' https://www.odesk.com/users/%7E019caad4e75ad4122f' target='new') Click here.
-    p No copyright claims here. Ideas don't come from me, they come 'through' me.
+    p No copyright claims here. As an artist/writer, ideas don't come <em>from</em> me, they come <em>'through'</em> me.
+    // do i need social links here?
+
