@@ -1,10 +1,4 @@
 // nodemon ./bin/www to run app
-/*
-TODO
-    + layout bootstrap
-    + angular or jquery?
-
-*/
 
 var express = require('express');
 var path = require('path');
