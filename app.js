@@ -27,6 +27,13 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 // ROUTING
 //app.use('/', routes);
+/*
+app.get('/mediatemp', function(req, res) {
+    res.render('mediatemp', { 
+        title: "How to Use Effective User Interface plus Persuasive Copywriting to Get Ahead of the Competition" });
+});
+*/
+
 app.get('/', function(req, res) {
     res.render('index', { title: "Jim Syyap Direct Marketing" });
 });
@@ -36,7 +43,8 @@ app.get('/toc', function(req, res) {
 });
 
 app.get('/usedcardealer', function(req, res) {
-    res.render('usedcardealer', { title: 'Marketing Campaign For Used Car Dealers'});
+    res.render('usedcardealer', { 
+        title: 'Marketing Campaign For Used Car Dealers'});
 });
 
 app.use('/users', users);
