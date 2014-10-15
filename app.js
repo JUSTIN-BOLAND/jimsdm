@@ -27,6 +27,11 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 // ROUTING
 //app.use('/', routes);
+app.get('/adhesion', function(req, res) {
+    res.render('adhesion', {
+        title: 'Adwords Example: Adwords + Auckland' });
+});
+
 /*
 app.get('/mediatemp', function(req, res) {
     res.render('mediatemp', { 
