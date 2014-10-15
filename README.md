@@ -5,10 +5,10 @@ html5 boilerplate, bootstrap3
 You can use the basic structure of this site as template in the future. Simply generate an express app, then copy paste the things you need.
 
 ## TODO
++ add navbar > hover dropdown menu(jquery)
 + accept bitcoins 
 + create marketing plan for used car dealers
     * adsense campaign, keywords used car dealer, marketing, new zealand
-+ add google analytics... adsense?
 + to delete files, do git rm file
 + jquery or angular?
 + layout bootstrap
