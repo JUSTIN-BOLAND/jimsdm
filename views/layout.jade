@@ -9,13 +9,11 @@ html(lang='en')
     meta(name='author', content='Jim Syyap')
     meta(name='description', content='pay per click advertising, auckland, new zealand, direct marketing, copywriting, google adwords')
     link(rel='stylesheet', href='/stylesheets/style.css')
-    script(src='/javascripts/main.js')
-    script(src='/javascripts/plugins.js')
     script(src='/javascripts/vendor/modernizr-2.6.2.min.js')
     //HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries 
     //if lt IE 9
-      script(src='https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js')
-      script(src='https://oss.maxcdn.com/respond/1.4.2/respond.min.js')
+    script(src='https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js')
+    script(src='https://oss.maxcdn.com/respond/1.4.2/respond.min.js')
   body
     #page
       header.container
@@ -38,7 +36,10 @@ html(lang='en')
         // do i need social links here?
 
     // Placed at the end of the document so the pages load faster 
+    // jquery has to be first. some scripts need jquery to work.
     script(src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js')
     // if google jquery cdn is not available, use this fallback
     script
       window.jQuery || document.write('<script src="javascript/vendor/jquery-1.10.2.min.js"> <\\/script>')
+    script(src='/javascripts/main.js')
+    script(src='/javascripts/plugins.js')

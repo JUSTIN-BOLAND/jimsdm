@@ -1,11 +1,11 @@
 @import "bootstrap.min.css";
+@import "bootstrap-theme.min.css";
 body {
   padding: 50px;
   font: 1em "Verdana", Lucida Grande, Helvetica, Arial, sans-serif;
 }
 a {
   color: #00f;
-/* add on hover color */
 }
 blockquote {
   color: #666;

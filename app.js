@@ -27,6 +27,11 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 // ROUTING
 //app.use('/', routes);
+app.get('/grid', function(req, res) {
+    res.render('grid', {
+        title: 'lynda bootstrap grid' });
+});
+
 app.get('/adhesion', function(req, res) {
     res.render('adhesion', {
         title: 'Adwords Example: Adwords + Auckland' });
