@@ -27,9 +27,14 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 // ROUTING
 //app.use('/', routes);
-app.get('/grid', function(req, res) {
-    res.render('grid', {
-        title: 'lynda bootstrap grid' });
+app.get('/contact', function(req, res) {
+    res.render('contact', {
+        title: 'Jim Syyap Direct Marketing'});
+});
+
+app.get('/about', function(req, res) {
+    res.render ('about', {
+        title: 'Jim Syyap Direct Marketing' });
 });
 
 app.get('/adhesion', function(req, res) {
