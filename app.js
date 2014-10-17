@@ -26,7 +26,11 @@ app.use(require('stylus').middleware(path.join(__dirname, 'public')));
 app.use(express.static(path.join(__dirname, 'public')));
 
 // ROUTING
-//app.use('/', routes);
+app.get('/timeline', function(req, res) {
+    res.render('timeline', {
+        title: 'Timeline: Jim Syyap Direct Marketing' });
+});
+
 app.get('/contact', function(req, res) {
     res.render('contact', {
         title: 'Jim Syyap Direct Marketing'});
@@ -59,9 +63,10 @@ app.get('/toc', function(req, res) {
 
 app.get('/usedcardealer', function(req, res) {
     res.render('usedcardealer', { 
-        title: 'Marketing Campaign For Used Car Dealers'});
+        title: 'Marketing Campaign For Used Car Dealers' });
 });
 
+//app.use('/', routes);
 app.use('/users', users);
 
 // catch 404 and forward to error handler
