@@ -26,6 +26,11 @@ app.use(require('stylus').middleware(path.join(__dirname, 'public')));
 app.use(express.static(path.join(__dirname, 'public')));
 
 // ROUTING
+app.get('/oct18seo', function(req, res) {
+    res.render('oct18seo', {
+        title: 'Get Top Spot with Good Copywriting?' });
+});
+
 app.get('/timeline', function(req, res) {
     res.render('timeline', {
         title: 'Timeline: Jim Syyap Direct Marketing' });
