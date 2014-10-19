@@ -6,10 +6,11 @@ You can use the basic structure of this site as template in the future. Simply g
 
 ## TODO
 + Make this site like Sheldon Brown's
++ rank for keywords "adwords auckland get customers"
++ ** send proposal adwords campaign to takapuna audiophile shop
++ PRODUCT - adwords campaign at ten dollars a week?
 + create sales funnel page
-+ accept bitcoins 
 + create marketing plan for used car dealers
     * adsense campaign, keywords used car dealer, marketing, new zealand
-+ layout bootstrap
 + learn by reverse engineering as i critique ad copy
 + keyword search for particular market, analyze adword ad > landing copy > how they convert
