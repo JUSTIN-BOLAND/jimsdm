@@ -64,7 +64,7 @@ app.get('/mediatemp', function(req, res) {
 */
 
 app.get('/', function(req, res) {
-    res.render('index', { title: "Jim Syyap Direct Marketing" });
+    res.render('index', { title: "Direct Marketing @ convertMost.com" });
 });
 
 app.get('/toc', function(req, res) {
