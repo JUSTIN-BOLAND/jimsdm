@@ -25,58 +25,7 @@ app.use(cookieParser());
 app.use(require('stylus').middleware(path.join(__dirname, 'public')));
 app.use(express.static(path.join(__dirname, 'public')));
 
-// ROUTING
-app.get('/cinema', function(req, res) {
-    res.render('cinema', {
-        title: 'Generate Traffic, Get Customers To Sign Up For Membership' });
-});
-
-app.get('/oct18seo', function(req, res) {
-    res.render('oct18seo', {
-        title: 'Get Top Spot with Good Copywriting?' });
-});
-
-app.get('/timeline', function(req, res) {
-    res.render('timeline', {
-        title: 'Timeline: Jim Syyap Direct Marketing' });
-});
-
-app.get('/contact', function(req, res) {
-    res.render('contact', {
-        title: 'Jim Syyap Direct Marketing'});
-});
-
-app.get('/about', function(req, res) {
-    res.render ('about', {
-        title: 'Jim Syyap Direct Marketing' });
-});
-
-app.get('/adhesion', function(req, res) {
-    res.render('adhesion', {
-        title: 'Adwords Example: Adwords + Auckland' });
-});
-
-/*
-app.get('/mediatemp', function(req, res) {
-    res.render('mediatemp', { 
-        title: "How to Use Effective User Interface plus Persuasive Copywriting to Get Ahead of the Competition" });
-});
-*/
-
-app.get('/', function(req, res) {
-    res.render('index', { title: "Direct Marketing @ convertMost.com" });
-});
-
-app.get('/toc', function(req, res) {
-    res.render('toc', { title: 'Terms and Conditions' });
-});
-
-app.get('/usedcardealer', function(req, res) {
-    res.render('usedcardealer', { 
-        title: 'Marketing Campaign For Used Car Dealers' });
-});
-
-//app.use('/', routes);
+app.use('/', routes);
 app.use('/users', users);
 
 // catch 404 and forward to error handler
