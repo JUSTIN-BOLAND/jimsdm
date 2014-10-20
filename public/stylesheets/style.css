@@ -23,3 +23,7 @@ h3 {
   font-size: 1.1em;
   font-weight: bold;
 }
+img.centered {
+  display: block;
+  margin: 0 auto;
+}

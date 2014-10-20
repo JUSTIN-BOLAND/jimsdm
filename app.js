@@ -26,6 +26,11 @@ app.use(require('stylus').middleware(path.join(__dirname, 'public')));
 app.use(express.static(path.join(__dirname, 'public')));
 
 // ROUTING
+app.get('/cinema', function(req, res) {
+    res.render('cinema', {
+        title: 'Generate Traffic, Get Customers To Sign Up For Membership' });
+});
+
 app.get('/oct18seo', function(req, res) {
     res.render('oct18seo', {
         title: 'Get Top Spot with Good Copywriting?' });
