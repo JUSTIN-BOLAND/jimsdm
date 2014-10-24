@@ -3,7 +3,7 @@ var router = express.Router();
 
 // ROuTING
 router.get('/', function(req, res) {
-  res.render('index', { title: 'Direct Marketing @ convertMost.com' });
+  res.render('index', { title: 'Pay Per Click Advertising @ convertMost.com' });
 });
 
 router.get('/cinema', function(req, res) {
