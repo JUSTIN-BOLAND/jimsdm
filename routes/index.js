@@ -3,7 +3,7 @@ var router = express.Router();
 
 // ROuTING
 router.get('/', function(req, res) {
-  res.render('index', { title: 'Pay Per Click Advertising @ convertMost.com' });
+  res.render('index', { title: 'Pay Per Click Advertising, convertMost.com' });
 });
 
 router.get('/cinema', function(req, res) {
@@ -11,24 +11,19 @@ router.get('/cinema', function(req, res) {
         title: 'Generate Traffic, Get Customers To Sign Up For Membership' });
 });
 
-router.get('/oct18seo', function(req, res) {
-    res.render('oct18seo', {
-        title: 'Get Top Spot with Good Copywriting?' });
-});
-
 router.get('/timeline', function(req, res) {
     res.render('timeline', {
-        title: 'Timeline: Jim Syyap Direct Marketing' });
+        title: 'Timeline: convertMost.com' });
 });
 
 router.get('/contact', function(req, res) {
     res.render('contact', {
-        title: 'Jim Syyap Direct Marketing'});
+        title: 'Jim Syyap & Company'});
 });
 
 router.get('/about', function(req, res) {
     res.render ('about', {
-        title: 'Jim Syyap Direct Marketing' });
+        title: 'Jim Syyap & Company' });
 });
 
 router.get('/adhesion', function(req, res) {
