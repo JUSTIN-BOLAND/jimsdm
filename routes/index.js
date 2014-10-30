@@ -40,9 +40,5 @@ router.get('/usedcardealer', function(req, res) {
     res.render('usedcardealer', { title: 'Marketing Campaign For Used Car Dealer'});
 });
 
-router.get('/kickstarter', function(req, res) {
-    res.render('kickstarter', { 
-        title: 'How To Market A CrowdFunding Campaign' });
-});
 
 module.exports = router;
