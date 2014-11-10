@@ -29,7 +29,7 @@ router.get('/', function(req, res) {
 
 router.get('/cinema', function(req, res) {
     res.render('cinema', {
-        title: 'Generate Traffic, Get Customers To Sign Up For Membership' });
+        title: 'Get Customers, Sign Up For Membership' });
 });
 
 router.get('/timeline', function(req, res) {
